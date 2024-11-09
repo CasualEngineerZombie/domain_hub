@@ -1091,10 +1091,6 @@ input:checked + .toggle-bg {
   position: relative;
 }
 
-.sticky {
-  position: sticky;
-}
-
 .inset-0 {
   inset: 0px;
 }
@@ -1123,12 +1119,12 @@ input:checked + .toggle-bg {
   right: 0px;
 }
 
-.top-0 {
-  top: 0px;
-}
-
 .start-0 {
   inset-inline-start: 0px;
+}
+
+.top-0 {
+  top: 0px;
 }
 
 .z-10 {
@@ -1919,6 +1915,10 @@ input:checked + .toggle-bg {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .gradient-text{

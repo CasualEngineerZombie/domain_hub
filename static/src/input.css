@@ -7,6 +7,9 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
+html {
+    scroll-behavior: smooth;
+  }
 
 .gradient-text{
     background-image: linear-gradient(to right, var(--tw-gradient-stops));
